@@ -357,7 +357,7 @@
   }
 
   window.addEventListener("resize", setLayout);
-  //   window.addEventListener("DOMContentLoaded", setLayout);
+
   window.addEventListener("load", setLayout);
   window.addEventListener("scroll", () => {
     yOffset = window.pageYOffset;
